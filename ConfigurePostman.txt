@@ -1,0 +1,23 @@
+We need Authorization Token
+
+End Point URL = https://login.salesforce.com/services/oauth2/token
+
+1. grant_type = password(as text)
+2. client_id = Consumer Key
+3. client_secret = Consumer Secret
+4. username = Org's Username
+5. password = Org's Password + Security Token
+
+To make a callout 
+
+Set the endpoint as :
+your salesforce org's URL + services/apexrest + URL mapping of the API
+
+example :
+https://mindful-hawk-mwvpe4-dev-ed.my.salesforce.com/services/apexrest/apiGET/Account/0015j00000XBolTAAT
+
+[ where apiGET/Account = URL Mapping ]
+
+In the header :
+Authorization = "Bearer " + Authorization Token received from Salesforce
+Content-Type = application/json
