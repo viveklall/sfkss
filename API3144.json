@@ -1,0 +1,28 @@
+{
+  "Id": "API3144",
+  "Name": "Vivek",
+  "Age": 26,
+  "Selected": true,
+  "Address": {
+    "City": "Jamshedpur",
+    "State": "Jharkhand",
+    "Pin": 831001
+  },
+  "Technology": [
+    {
+      "Tid": "T01",
+      "Tech": "Java",
+      "Experience": 13
+    },
+    {
+      "Tid": "T02",
+      "Tech": "Python",
+      "Experience": 19
+    },
+    {
+      "Tid": "T03",
+      "Tech": "Salesforce",
+      "Experience": 8
+    }
+  ]
+}
